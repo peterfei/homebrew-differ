@@ -3,11 +3,11 @@ cask "differ" do
 
   on_arm do
     url "https://github.com/peterfei/differ/releases/download/v#{version}/Differ_#{version}_aarch64.dmg"
-    sha256 "b0dcf83b60adf0ac5b02f56de1bf61750bb8c2ff54daa10f7ec3e2f7862b619e"
+    sha256 "315cc93f4a97209cb4a531f13e036893de962494d8864bc08c2674362213e4f4"
   end
   on_intel do
     url "https://github.com/peterfei/differ/releases/download/v#{version}/Differ_#{version}_x64.dmg"
-    sha256 "c3a02286dae2aecfa3e2936b6b4da3f5eb80ba5b241976f4c0f97f6d0502fff1"
+    sha256 "16d977364ba2b736a24ed92e1f56310c457082fe51fdd394831a3751cdee14ce"
   end
 
   name "Differ"
